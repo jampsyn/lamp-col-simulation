@@ -2,7 +2,6 @@ import random
 import time
 
 def simulate(num_lamps, num_colors):
-    # Randomly select a single color for all lamps
     lamp_color = random.randint(1, num_colors)
     num_presses = 1
     while True:
